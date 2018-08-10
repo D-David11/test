@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+         <add id="Emipro_Importexportproductreviews::emipro_importexportproductreviews_index_index" title="Import/Export Product Reviews" parent="Magento_Backend::system_convert" module="Emipro_Importexportproductreviews"  sortOrder="60" action="importexportproductreviews/index/index" resource="Emipro_Importexportproductreviews::importexportproductreviews_index_index"/>
+    </menu>
+</config>
