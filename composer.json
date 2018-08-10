@@ -1,21 +1,14 @@
 {
+    "name": "D-David11/test",
+    "autoload": {
+        "psr-0" : {
+            "D-David11/test" : "src"
+        }
+    },
     "repositories": [
     {
         "type": "vcs",
-        "package": {
-            "name": "D-David11/test",
-            "version": "dev-master",
-            "source": {
-                "url": "https://github.com/D-David11/test.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "D-David11/test" : "src"
-                }
-            }
-        }
+        "url": "https://github.com/D-David11/test.git",
     }
 ]
 }
