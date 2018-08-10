@@ -1,20 +1,21 @@
 {
-    "name": "emipro/importexportproductreviews",
-    "description": "Import Export Product Reviews For Magento 2",
-    "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
-    },
-    "type": "magento2-module",
-    "version": "2.0.0",
-    "license": [
-        "https://shop.emiprotechnologies.com/license-agreement/"
-    ],
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Emipro\\Importexportproductreviews\\": ""
+    "repositories": [
+    {
+        "type": "vcs",
+        "package": {
+            "name": "D-David11/test",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/D-David11/test.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "D-David11/test" : "src"
+                }
+            }
         }
     }
+],
 }
