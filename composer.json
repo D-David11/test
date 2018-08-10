@@ -1,5 +1,5 @@
 {
-    "name": "D-David11/test",
+    "name": "d-david11/test",
     "autoload": {
         "psr-0" : {
             "D-David11/test" : "src"
